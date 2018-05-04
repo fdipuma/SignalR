@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Microsoft.AspNet.SignalR.Client</RootNamespace>
+    <AssemblyName>Microsoft.AspNet.SignalR.Client</AssemblyName>
+    <Version>2.2.3</Version>
+    <Description>.NET client for SignalR</Description>
+    <Company>.NET Foundation</Company>
+    <Product>Microsoft ASP.NET SignalR</Product>
+    <Copyright>Copyright (c) .NET Foundation. All rights reserved.</Copyright>
+    <PackageId>Microsoft.AspNet.SignalR.Client.NetStandard2</PackageId>
+    <PackageReleaseNotes>https://github.com/SignalR/SignalR/releases</PackageReleaseNotes>
+    <PackageTags>Microsoft AspNet SignalR AspNetSignalR Client</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>http://www.asp.net/signalr</PackageProjectUrl>
+    <PackageLicenseUrl>http://www.microsoft.com/web/webpi/eula/signalr_client_enu.htm</PackageLicenseUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
+  </ItemGroup>
+</Project>
